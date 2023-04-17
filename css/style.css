@@ -626,7 +626,15 @@ justify-content: space-between;
 .menu-bg{
   display: none;
 }
-
+.logo-3{
+  display: none;
+}
+.mobile-menu{
+  display: none;
+}
+.mobile-menu-header{
+  display: none;
+}
 
 
 /* Responsive css */
@@ -640,6 +648,9 @@ justify-content: space-between;
   }
   .menu li:nth-child(-n+4){
     display: none;
+  }
+  .mobile-menu-header{
+    display: block;
   }
 .menu-bg{
   background: #fff;
@@ -664,6 +675,7 @@ justify-content: space-between;
 }
 .logo-3{
   width: 100px;
+  display: block;
 }
 .close{
 font-size: 60px;
@@ -678,6 +690,7 @@ line-height: 20px;
 }
 .mobile-menu{
   margin-top: 30px;
+  display: block;
 }
 .mobile-menu li{
   font-size: 22px;
